@@ -52,12 +52,6 @@ Prisma.join = join
 Prisma.raw = raw
 Prisma.validator = () => (val) => val
 
-/**
-* Extensions
-*/
-Prisma.getExtensionContext = Extensions.getExtensionContext
-Prisma.defineExtension = Extensions.defineExtension
-
 
 /**
  * Shorthand utilities for JSON filtering
@@ -158,9 +152,7 @@ const config = {
       "engineType": "library"
     },
     "binaryTargets": [],
-    "previewFeatures": [
-      "clientExtensions"
-    ],
+    "previewFeatures": [],
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
